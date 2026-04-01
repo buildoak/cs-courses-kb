@@ -3,37 +3,50 @@
 Structured knowledge base built from the best publicly available CS/AI university courses.
 Not transcripts — enriched articles: key concepts, non-obvious insights, implementation notes, connections.
 
-## Courses
+---
 
-### Tier 1 — Core (build first)
+## Course Catalog
 
-| # | Course | University | Instructor | Year | Lectures | Topic |
-|---|--------|-----------|-----------|------|----------|-------|
-| 1 | **CS336** | Stanford | Hashimoto, Liang | 2025 | 19 | Language Modeling from Scratch |
-| 2 | **CS224N** | Stanford | Manning, Murty | 2024 | 22 | NLP with Deep Learning |
-| 3 | **CS234** | Stanford | Brunskill | 2024 | 16 | Reinforcement Learning |
-| 4 | **CS149** | Stanford | Fatahalian, Olukotun | 2023 | 18 | Parallel Computing |
-| 5 | **CS161** | Stanford | Anari, Charikar | 2024 | ~20 | Design and Analysis of Algorithms |
-| 6 | **CS166** | Stanford | Schwarz | 2024 | ~20 | Advanced Data Structures |
+### Full Video + Assignments (KB-ready)
 
-### Tier 2 — Systems & Applied
+Courses with public lecture recordings and publicly available assignments. Primary build targets.
 
-| # | Course | University | Instructor | Year | Lectures | Topic |
-|---|--------|-----------|-----------|------|----------|-------|
-| 7 | **CS285** | UC Berkeley | Levine | 2023 | 23 | Deep Reinforcement Learning |
-| 8 | **CS294-196** | UC Berkeley | Song, Chen | 2024 | 13 | LLM Agents |
-| 9 | **15-445** | CMU | Pavlo | 2024 | 26 | Database Systems |
-| 10 | **10-414** | CMU | Kolter, Chen | 2022 | 23 | Deep Learning Systems |
+| Course | University | Year | Lectures | Assignments | Topic |
+|--------|-----------|------|----------|-------------|-------|
+| **CS336** | Stanford | 2025 | 19 | 5 | Language Modeling from Scratch |
+| **CS224N** | Stanford | 2024 | 19 | 4 | NLP with Deep Learning |
+| **CS234** | Stanford | 2024 | 16 | 3 | Reinforcement Learning |
+| **CS149** | Stanford | 2023 | 18 | 5 | Parallel Computing |
+| **CS25** | Stanford | 2021–25 | 47+ | 0 | Transformers United (seminar) |
+| **CS330** | Stanford | 2022 | 20 | 5 | Meta-Learning |
+| **CS236** | Stanford | 2023 | 16 | 3 | Deep Generative Models |
+| **CS230** | Stanford | 2025 | 9 | 22 (Coursera) | Deep Learning |
+| **CS221** | Stanford | 2021 | ~20 | 8 | AI: Principles & Techniques |
+| **CS224U** | Stanford | 2023 | ~14 | 3 | Natural Language Understanding |
+| **CS285** | UC Berkeley | 2023 | 23 | 5 | Deep Reinforcement Learning |
+| **CS294-196** | UC Berkeley | 2024 | 12 | 1 | LLM Agents (seminar) |
+| **15-445** | CMU | 2024 | 26 | 11 | Database Systems |
+| **10-414** | CMU | 2022 | 23 | 7 | Deep Learning Systems |
+| **6.S191** | MIT | 2026 | 9 | 3 | Introduction to Deep Learning |
 
-### Tier 3 — Depth
+### Slides Only (no public video)
 
-| # | Course | University | Instructor | Year | Lectures | Topic |
-|---|--------|-----------|-----------|------|----------|-------|
-| 11 | **CS25** | Stanford | Various speakers | 2024-26 | 9+ | Transformers United |
-| 12 | **CS330** | Stanford | Finn | 2023 | 20 | Meta-Learning |
-| 13 | **CS236** | Stanford | Ermon, Grover | 2023 | 18 | Deep Generative Models |
-| 14 | **CS224W** | Stanford | Leskovec | 2025 | 19 | ML with Graphs |
-| 15 | **6.S191** | MIT | Amini, Soleimany | 2025 | 12 | Introduction to Deep Learning |
+Courses worth tracking for their assignments and notes, but without accessible recordings.
+
+| Course | University | Slides Year | Lectures | Assignments | Notes | Topic |
+|--------|-----------|-------------|----------|-------------|-------|-------|
+| **CS161** | Stanford | 2026 | 18 | 8 | Video Canvas-only | Design & Analysis of Algorithms |
+| **CS166** | Stanford | 2026 | 19 | 6 | Never had public video — Keith Schwarz slides are legendary | Advanced Data Structures |
+| **CS229** | Stanford | 2023 notes | 20 | 5 | Last public video: 2018 (Andrew Ng) | Machine Learning |
+| **CS231n** | Stanford | 2026 slides | 16 | 3 | Last public video: 2017 | Deep Learning for Computer Vision |
+| **CS224W** | Stanford | 2025 slides | 19 | 8 | Last public video: 2021 | ML with Graphs |
+
+### Special: CS153 — Frontier Systems (Stanford)
+
+Guest lecture seminar: Jensen Huang, Sam Altman, Andrej Karpathy, Satya Nadella, Ben Mann (Anthropic).
+Videos are patchwork — availability depends on individual speaker consent. Cherry-pick individual talks rather than treating as a full course.
+
+---
 
 ## Structure
 
@@ -51,6 +64,8 @@ cs-courses-kb/
 │   └── gems.md                # Non-obvious insights across all lectures
 ```
 
+---
+
 ## Lecture Article Format
 
 Each lecture article contains:
@@ -61,6 +76,8 @@ Each lecture article contains:
 - **Referenced Papers** — with one-line descriptions
 - **Timestamps** — key moments in the video
 
+---
+
 ## Assignment Article Format
 
 Each assignment article contains:
@@ -69,25 +86,56 @@ Each assignment article contains:
 - **Implementation Walkthrough** — from GitHub solutions, architecture and approach
 - **What You Learn** — the pedagogical punchline
 
+---
+
 ## GitHub Assignment Sources
 
 | Course | Repo | Notes |
 |--------|------|-------|
 | CS336 | [stanford-cs336](https://github.com/stanford-cs336) | Official org, 5 assignments, executable lectures |
-| CS149 | [stanford-cs149](https://github.com/stanford-cs149) | Official org, 4 assignments incl. Trainium |
-| CS224N | [CS224N-Spring2024-DFP](https://github.com/amahankali10/CS224N-Spring2024-DFP-Student-Handout) | BERT implementation starter |
-| CS231n | [cs231n.github.io](https://cs231n.github.io/) | Official assignment specs |
-| 10-414 | [dlsyscourse.org](https://dlsyscourse.org/lectures/) | Needle framework (build PyTorch) |
-| 6.S191 | [MITDeepLearning](https://github.com/MITDeepLearning/introtodeeplearning) | Official lab repo |
-| 15-445 | [cmu-db/bustub](https://github.com/cmu-db/bustub) | Public codebase |
+| CS149 | [stanford-cs149](https://github.com/stanford-cs149) | Official org, 5 assignments incl. Trainium |
+| CS224N | [CS224N-Spring2024](https://github.com/amahankali10/CS224N-Spring2024-DFP-Student-Handout) | BERT implementation starter |
+| CS234 | [cs234-2024](https://github.com/search?q=cs234+stanford+2024) | Assignment starters on GitHub |
+| CS330 | [cs330-2022](https://cs330.stanford.edu/) | Official course site, 5 assignments |
+| CS230 | [cs230-code-examples](https://github.com/cs230-stanford/cs230-code-examples) | Official, supplemented by Coursera |
+| CS221 | [cs221-stanford](https://cs221.stanford.edu/) | Official site, 8 assignments |
+| CS224U | [cs224u](https://github.com/cgpotts/cs224u) | Official repo (Christopher Potts) |
+| CS285 | [rail-berkeley/deeprl-course](https://github.com/rail-berkeley/deeprl_course) | Official, 5 homework assignments |
+| CS294-196 | [llm-agents-mooc](https://llmagents-learning.org/) | Course site, 1 project assignment |
+| 15-445 | [cmu-db/bustub](https://github.com/cmu-db/bustub) | BusTub public codebase, 11 projects |
+| 10-414 | [dlsyscourse.org](https://dlsyscourse.org/) | Needle framework (build PyTorch), 7 hw |
+| 6.S191 | [MITDeepLearning](https://github.com/MITDeepLearning/introtodeeplearning) | Official lab repo, 3 labs |
 | CS236 | [deepgenerativemodels](https://github.com/deepgenerativemodels/notes) | Official notes repo |
+| CS231n | [cs231n.github.io](https://cs231n.github.io/) | Official assignment specs (slides-only era) |
+| CS224W | [snap-stanford/cs224w](https://web.stanford.edu/class/cs224w/) | Official site, 8 colab assignments |
+
+---
 
 ## Progress
 
-| Course | Lectures | Assignments | Gems | Status |
-|--------|----------|-------------|------|--------|
-| CS336 | 0/19 | 0/5 | - | not started |
-| ... | | | | |
+| Course | Availability | Lectures | Assignments | Gems | Status |
+|--------|-------------|----------|-------------|------|--------|
+| CS336 | video + hw | 0/19 | 0/5 | — | not started |
+| CS224N | video + hw | 0/19 | 0/4 | — | not started |
+| CS234 | video + hw | 0/16 | 0/3 | — | not started |
+| CS149 | video + hw | 0/18 | 0/5 | — | not started |
+| CS25 | video | 0/47+ | — | — | not started |
+| CS330 | video + hw | 0/20 | 0/5 | — | not started |
+| CS236 | video + hw | 0/16 | 0/3 | — | not started |
+| CS230 | video + hw | 0/9 | 0/22 | — | not started |
+| CS221 | video + hw | 0/20 | 0/8 | — | not started |
+| CS224U | video + hw | 0/14 | 0/3 | — | not started |
+| CS285 | video + hw | 0/23 | 0/5 | — | not started |
+| CS294-196 | video + hw | 0/12 | 0/1 | — | not started |
+| 15-445 | video + hw | 0/26 | 0/11 | — | not started |
+| 10-414 | video + hw | 0/23 | 0/7 | — | not started |
+| 6.S191 | video + hw | 0/9 | 0/3 | — | not started |
+| CS161 | slides only | 0/18 | 0/8 | — | not started |
+| CS166 | slides only | 0/19 | 0/6 | — | not started |
+| CS229 | slides only | 0/20 | 0/5 | — | not started |
+| CS231n | slides only | 0/16 | 0/3 | — | not started |
+| CS224W | slides only | 0/19 | 0/8 | — | not started |
+| CS153 | patchwork | — | — | — | cherry-pick only |
 
 ---
 
