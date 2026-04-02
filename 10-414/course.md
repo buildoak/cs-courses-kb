@@ -47,6 +47,9 @@ Inference from the lecture and assignment arc:
 - [HW1: Automatic Differentiation](./assignments/HW1-automatic-differentiation.md)
 - [HW2: Neural Network Library](./assignments/HW2-neural-network-library.md)
 - [HW3: Sequence Models / RNN-LSTM](./assignments/HW3-sequence-models-rnn-lstm.md)
+- [HW4: Training Pipelines and Optimizers](./assignments/HW4-training-pipelines-optimizers.md)
+- [HW4: Sequence Models and Language Modeling](./assignments/HW4-sequence-models-language-modeling.md)
+- [HW5: Transformers in Needle](./assignments/HW5-transformers-in-needle.md)
 - [HW6: GPU CUDA Backend for Needle](./assignments/HW6-gpu-cuda-backend-for-needle.md)
 - [HW7: Distributed Training](./assignments/HW7-distributed-training.md)
 
@@ -70,5 +73,8 @@ Inference from the lecture and assignment arc:
 - Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW1-automatic-differentiation.md
 - Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW2-neural-network-library.md
 - Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW3-sequence-models-rnn-lstm.md
+- Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW4-training-pipelines-optimizers.md
+- Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW4-sequence-models-language-modeling.md
+- Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW5-transformers-in-needle.md
 - Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW6-gpu-cuda-backend-for-needle.md
 - Local KB note: /Users/otonashi/thinking/building/cs-courses-kb/10-414/assignments/HW7-distributed-training.md
