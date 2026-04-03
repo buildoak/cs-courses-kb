@@ -1,5 +1,7 @@
 # CS Courses Knowledge Base
 
+> **⚠️ Experimental — rework in progress.** This KB was built as a scaling experiment for an autonomous ticket-dispatch pipeline ([ticket-work v3](https://github.com/buildoak)). The content is real but quality is uneven — some articles are strong synthesis, others are thin or have broken provenance. A reworked pipeline with proper quality gates is coming. Treat current articles as draft-quality.
+
 Structured knowledge base built from the best publicly available CS/AI university courses.
 Not transcripts — enriched articles: key concepts, non-obvious insights, implementation notes, connections.
 
